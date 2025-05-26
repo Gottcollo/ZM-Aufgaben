@@ -1,0 +1,5 @@
+print('Geburt von mir')
+name = input('Wie heißen wir?')
+print('Unser Name ist ' + name)
+age = input('Wie alt sind wir?')
+print(F'Wir sind {age} Jahre alt')
