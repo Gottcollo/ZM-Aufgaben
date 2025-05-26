@@ -9,7 +9,7 @@ zimmerart = input('Wie nutzt du das Zimmer? Als Botanikzimmer, technikzimmer ode
 bodenbelag = input('Was ist auf deinem Boden ausgelegt?')
 balkon = input('Besitzt das Zimmer ein Balkon?')
 himmelsrichtung = input('In welcher Richtung liegt das Zimmer?')
-wlan = input('Ist Wlan existent im Zimmer')
+wlan = input('Ist Wlan existent im Zimmer?')
 
 print(F'''Lass mich das wiederholen. 
       Deine Zimmernummer ist {zimmernummer} und dein Zimmer ist {zimmergröße} groß.
