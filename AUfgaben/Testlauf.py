@@ -7,3 +7,5 @@ print('Unser Name ist ' + name)
 age = input('Wie alt sind wir?')#keine Überprüfung ob der User eine Float/Integer Zahl angibt
 
 print(F'Wir sind {age} Jahre alt')
+
+print('Ich bin nun ein Teil von allem')
