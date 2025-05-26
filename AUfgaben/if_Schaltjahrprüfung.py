@@ -1,4 +1,4 @@
-jahr = int(input("Welches Jahr willst du Überprüfen?"))
+jahr = int(input('Welches Jahr willst du Überprüfen?'))
 
 #komische Schaltjahrregel mit mathe erklärt mit and und or kombiniert alles in klammern setzen
 #um es als eins anzuschauen.
@@ -13,4 +13,4 @@ else:
 #elif (jahr % 400 == 0):
 #   print(F'{jahr} ist ein Schaltjahr')
 #else:
-#   print(F'{jahr} ist kein Schaltjahr)
+#   print(F'{jahr} ist kein Schaltjahr')

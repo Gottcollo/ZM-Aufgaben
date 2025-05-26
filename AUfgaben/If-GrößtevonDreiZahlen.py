@@ -1,7 +1,7 @@
 print('Gib mir deine drei Zahlen und ich sage dir welche die größte ist.')
-zahl1 = float(input("Deine erste Zahl?"))
-zahl2 = float(input("Deine zweite Zahl?"))
-zahl3 = float(input("Deine dritte Zahl?"))
+zahl1 = float(input('Deine erste Zahl?'))
+zahl2 = float(input('Deine zweite Zahl?'))
+zahl3 = float(input('Deine dritte Zahl?'))
 
 #ich fake das zahl1 die größte zahl ist und überprüfe und ersetze falls es stimmt.
 #ich wollte einfach eine überprüfung umgehen das geht aber nicht.
