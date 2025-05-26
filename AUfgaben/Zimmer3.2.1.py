@@ -12,7 +12,7 @@ himmelsrichtung = input('In welcher Richtung liegt das Zimmer?')
 wlan = input('Ist Wlan existent im Zimmer?')
 
 print(F'''Lass mich das wiederholen. 
-      Deine Zimmernummer ist {zimmernummer} und dein Zimmer ist {zimmergröße} groß.
+      Deine Zimmernummer ist {zimmernummer} und dein Zimmer ist {zimmergröße}m² groß.
       Du hast {fensteranzahl} Fenster und dein Zimmer ist in der Etage {etage}.
       Dein Zimmer kostet dich {zimmerpreis} und du nutzt das Zimmer als {zimmerart}.
       Dein Bodenbelag ist {bodenbelag}. 
