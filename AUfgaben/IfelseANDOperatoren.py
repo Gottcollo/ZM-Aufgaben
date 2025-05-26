@@ -8,7 +8,7 @@ number3 = int(input('Deine letzte Zahl..... Mach mal schneller!'))
 #gewinnzahl2 = 31
 #gewinnzahl3 = 3
 
-if number1 == 15 and number2 == 31 and number3 == 3:
+if number1 == 15 and number2 == 31 and number3 == 3: #es gibt noch "or" und "not" wie die logik bei Maschinen
     print(F'Du hast {number1}, {number2}, und {number3} in der Richtigen reihenfolge gesagt!')
     print('DU HAST GEWONNEN, HURRAY!')
 else:
