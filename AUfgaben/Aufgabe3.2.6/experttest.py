@@ -18,7 +18,7 @@ while not ratezahl:  #while sagt immer (wenn es wahr ist) while not sagt wenn es
         elif wette < zahl:
             print('Du musst höher gehen.')
         elif wette == zahl:
-            print(F'Genau richtig! Du hast nur {versuche} gebraucht')
+            print(F'Genau richtig! Du hast nur {versuche} versuche gebraucht')
             ratezahl = True
         else:
             print('Das ist zu hoch')
