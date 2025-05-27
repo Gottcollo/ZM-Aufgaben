@@ -19,3 +19,5 @@ print(F'Rückwärts {list(reversed(zahlenstrahl))}') #zahlenstrahl.reverse() gin
 #zahl gewählt weil das ein zahlenstrahl ist und das logisch also zahlen sind
 geradezahlen = [zahl for zahl in zahlenstrahl if zahl % 2 == 0]
 print(F'der neue Zahlenstrahl: {geradezahlen}')
+
+print(f'Neue Liste: {list(filter(lambda n: n % 2 == 0, zahlenstrahl))}')
