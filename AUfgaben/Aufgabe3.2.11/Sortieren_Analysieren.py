@@ -8,26 +8,30 @@ while True:
         zahl = int(userinput) #für denn Bonus später jetzt schon INT anstatt Float
         zahlen.append(zahl) #append fügt einfach ein element hinzu 
                             #hier lass ich die zahl die der user gibt einfügen in die liste
-        min = zahlen[0]
-        max = zahlen[0]
-        summe = 0
-
-        for zahl in zahlen:
-            if zahl < min:
-                min = zahl
-            if zahl > max:
-                max = zahl
-
-            summe += zahl
-
-        durchschnitt = summe /len(zahlen) #schon in listenzahlen genutzt
-        sortiert = sorted(zahlen)  #sorted ist eine funktion zum sortieren von INT
-
-        print(F'Maximale Zahl ist {max}')
-        print(F'Minimalste Zahl ist {min}')
-        print(F'Ein Sortierter Zahlenstrahl {sortiert}')
-        print(F'Noch mehr?')
-
-    except ValueError: #try und except sind schwer zu meistern
+    except ValueError:
         print('Das war wohl keine Ganzzahl')
+
+if len(zahlen) != 0: #längencheck der liste sobald was drin ist gehts los
+    min = zahlen[0]
+    max = zahlen[0]
+    summe = 0
+
+    for zahl in zahlen:
+        if zahl < min:
+            minimum = zahl
+        if zahl > max:
+            max = zahl
+        summe += zahl
+
+    durchschnitt = summe / len(zahlen)
+
+    sortiert = sorted(zahlen)
+    #zahlen.sort()  geht auch hab ich später gefunden. dadurch keine neue liste erstellt sondern alte sortiert
+    
+    print(f"Die größte Zahl ist {max}")
+    print(f"Die kleinste Zahl ist {min}")
+    print(f"Der Durchschnitt der Zahlen ist {durchschnitt}")
+    print(f" Eine Sortierte Liste {sortiert}")
+else:
+    print("Keine Zahlen eingegeben.")
 
