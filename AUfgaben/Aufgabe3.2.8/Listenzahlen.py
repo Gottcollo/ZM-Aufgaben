@@ -15,7 +15,7 @@ print(F'Vorwärts {zahlenstrahl}')
 print(F'Rückwärts {list(reversed(zahlenstrahl))}') #zahlenstrahl.reverse() ging nicht und hat mir wert NULL ausgegeben
 
 #habe hilfe gebraucht für die for klausel internetsuche hat geholfen
-#Modulo hier bei Zahl kann ich andere variablennamen wählen 
+#Modulo hier bei 'Zahl' kann ich andere variablennamen wählen 
 #zahl gewählt weil das ein zahlenstrahl ist und das logisch also zahlen sind
 geradezahlen = [zahl for zahl in zahlenstrahl if zahl % 2 == 0]
 print(F'der neue Zahlenstrahl: {geradezahlen}')
