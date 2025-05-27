@@ -1,4 +1,4 @@
-counter = 5 
-while counter < 10:
+counter = 1
+while counter <= 100:
     print(F'Dein counter = {counter}')
     counter += 1
