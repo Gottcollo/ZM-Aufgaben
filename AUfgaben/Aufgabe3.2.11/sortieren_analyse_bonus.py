@@ -1,11 +1,11 @@
 zahlen = []   #eine leere liste die ich passiv fühlen will 
 
-while True:
-    userinput = input('Gib eine Zahl ein oder "stopp" zum Beenden')
+while True: #sobald der break kommt springt man aus einer schleife raus
+    userinput = input('Gib eine Ganzzahl ein oder "stopp" zum beenden der eingabe.   ')
     if userinput.lower() == 'stopp':
         break
     try:
-        zahl = int(userinput) #für denn Bonus später jetzt schon INT anstatt Float
+        zahl = int(userinput) #nur INT werte erlaubt
         zahlen.append(zahl) #append fügt einfach ein element hinzu 
                             #hier lass ich die zahl die der user gibt einfügen in die liste
     except ValueError:
@@ -25,13 +25,13 @@ if len(zahlen) != 0: #längencheck der liste sobald was drin ist gehts los
 
     durchschnitt = summe / len(zahlen)
 
-    sortiert = sorted(zahlen)
-    #zahlen.sort()  geht auch hab ich später gefunden. dadurch keine neue liste erstellt sondern alte sortiert
+    #sortiert = sorted(zahlen)
+    zahlen.sort()  #sort() sortiert listen automatisch
     
     print(f"Die größte Zahl ist {groesste}")
     print(f"Die kleinste Zahl ist {kleinste}")
-    print(f"Der Durchschnitt der Zahlen ist {durchschnitt}")
-    print(f" Eine Sortierte Liste {sortiert}")
+    print(f"Der Durchschnitt der Zahlen ist {durchschnitt:.2F}")
+    print(f" Eine Sortierte Liste {zahlen}")
 else:
     print("Keine Zahlen eingegeben.")
 
