@@ -13,7 +13,7 @@ while True: #sobald der break kommt springt man aus einer schleife raus
 
 if len(zahlen) != 0: #längencheck der liste sobald was drin ist gehts los
     kleinste = zahlen[0] #min oder max etwas als variable zu nenne zerstört die funktionen min und max von python
-    groesste = zahlen[0]
+    groesste = zahlen[0] #ein startwert für kleinste und groesste damit ich eine for schleife das checken kann
     summe = 0
 
     for zahl in zahlen:
