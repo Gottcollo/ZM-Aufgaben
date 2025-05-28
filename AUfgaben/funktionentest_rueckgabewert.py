@@ -1,6 +1,8 @@
-def say_hello(first_name, last_name):
-    print(print('Hallo ' + first_name + ' ' + last_name))
-    print('Willkomen zurück')
-
-print(type(say_hello('Sam', 'Will')))
-print('Test')
+def maximum(a, b):
+    if a < b:
+        return b
+    else:
+        return a
+    
+result = maximum(12, 19)
+print(result)
