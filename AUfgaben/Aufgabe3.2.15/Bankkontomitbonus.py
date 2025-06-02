@@ -16,7 +16,7 @@ class Konto:
         except ValueError:
             print('Fehler bei der eingabe') 
     def zeige_kontostand(self):
-        print(F'Konto von {self.kontoinhaber} - Kontostand:{self.kontostand:.2f} €')
+        print(F'Konto von {self.kontoinhaber} - Kontostand: {self.kontostand:.2f} €')
 
     def zinsen_berechnen(self, zinssatz):
         if self.kontostand > 0:
