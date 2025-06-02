@@ -1,0 +1,17 @@
+from Modul1 import Konto
+
+konto1 = Konto('Sam')
+konto1.einzahlen (200)
+konto1.abheben(50)
+konto1.zeige_kontostand()
+print(konto1)
+print('=' * 40)
+konto2 = Konto('Marty')
+print(konto2)
+konto2.einzahlen(200)
+print(konto2)
+konto2.abheben(290)
+print(konto2)
+konto2.abheben(100)
+konto2.zinsen_berechnen(5)
+print(konto2)
